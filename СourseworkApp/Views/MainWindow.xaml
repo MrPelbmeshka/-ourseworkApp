@@ -161,12 +161,12 @@
                                    Text="Готов к работе" FontSize="13"/>
 
                         <Button x:Name="ResetButton" 
-                                Canvas.Left="930" Canvas.Top="8" 
-                                Width="80" Height="34"
+                                Canvas.Left="847" Canvas.Top="2" 
+                                Width="157" Height="34"
                                 Content="🔄 Сброс" 
                                 Style="{StaticResource PrimaryButton}" 
                                 Background="#7F8C8D"
-                                Click="ResetButton_Click"/>
+                                Click="ResetButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                     </Canvas>
                 </Border>
             </Canvas>
@@ -182,20 +182,20 @@
                            Text="✅ Готов" Foreground="White" FontSize="13"/>
 
                 <Button x:Name="SaveButton" 
-                        Canvas.Left="880" Canvas.Top="8" 
-                        Width="80" Height="34"
+                        Canvas.Left="759" Canvas.Top="2" 
+                        Width="145" Height="34"
                         Content="💾 Сохранить" 
                         Style="{StaticResource PrimaryButton}" 
                         Background="#27AE60"
-                        Click="SaveButton_Click"/>
+                        Click="SaveButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
                 <Button x:Name="LoadButton" 
-                        Canvas.Left="965" Canvas.Top="8" 
-                        Width="80" Height="34"
+                        Canvas.Left="920" Canvas.Top="2" 
+                        Width="122" Height="34"
                         Content="Загрузить" 
                         Style="{StaticResource PrimaryButton}" 
                         Background="#27AE60"
-                        Click="LoadButton_Click"/>
+                        Click="LoadButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             </Canvas>
         </Border>
 
